@@ -14,3 +14,7 @@ Takes a simple Spring Boot app and:
 
 * The SSL cert of the docker host is selfsigned (created by boot2docker during installation), thus it needs to manually be added to Java's cacerts keystore.
 `sudo keytool import -alias $DOCKER_HOST -file $DOCKER_CERT -keystore $JAVA_HOME/jre/lib/security/cacerts`
+
+## how to test
+Go to `https://$DOCKER_HOST:8080/container`
+This would return a sample JSON message.
