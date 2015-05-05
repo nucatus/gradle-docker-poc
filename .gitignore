@@ -1,0 +1,6 @@
+.gradle
+.idea
+build
+boot2docker.cert
+ca-cert
+*.iml
